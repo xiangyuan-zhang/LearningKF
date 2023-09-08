@@ -1,0 +1,22 @@
+# SPDX-License-Identifier: MIT
+
+PDE: Heat
+log_dir: save/test/
+ani_dir: save/movies/
+
+nu: 0.002 # diffusion coefficient
+velocity: 0.05 # convection velocity
+Lx: 1 # domain length
+
+dt: 0.001 # discretization step size
+dt_save: 0.05 # each discrete-time step represents (dt_save) seconds
+n_save: 701 # number of discrete-time steps, a.k.a. horizon length
+seed: 77 # random seed
+
+var_x: 0.25 # Intensity of initial perturbation to state
+var_v: 0.1 # Intensity of measurement noise
+var_w: 0.000000001 # Intensity of system noise
+var_theta: 0.01 # Intensity of the manual noise
+
+n_x: 200 # dimension of state vector
+n_y: 5 # dimension of observation vector

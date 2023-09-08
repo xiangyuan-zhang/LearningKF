@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: MIT
+
+# To reproduce the figures in the paper, the scripts in
+# tools/4_test_plot_rhpg_traj.py and
+# tools/5_test_save_rand_init.py
+# assume that N >= 102.
+# If this condition is not satisfied, the plotting script
+# will print an error message and returns nothing
+
+N: 102
+lr: 0.001

@@ -4,7 +4,7 @@ SPDX-License-Identifier: MIT
 
 # Receding-Horizon Policy Search for Learning Estimator Designs
 
-This is the official implementation of the paper [Global Convergence of Receding-Horizon Policy Search in Learning Estimator Designs](https://arxiv.org/abs/XXXXXXXX) authored by X. Zhang, S. Mowlavi, M. Benosman, and T. Başar.
+This is the official implementation of the paper [Global Convergence of Receding-Horizon Policy Search in Learning Estimator Designs](https://arxiv.org/abs/2309.04831) authored by X. Zhang, S. Mowlavi, M. Benosman, and T. Başar.
 
 <p align="center">
     <img src=gifs/3d_video_transparent.gif width="600" height="550" />
@@ -73,13 +73,13 @@ The sturcture of the repository is as follows.
 
 ## Citation
 
-If you use the software, please cite the following [arXiv preprint]([TR_URL](https://arxiv.org/abs/XXXXXXXX)):
+If you use the software, please cite the following [arXiv preprint](https://arxiv.org/abs/2309.04831):
 
 ```BibTeX
-@article{
+@article{zhang2023global,
     title = {Global Convergence of Receding-Horizon Policy Search in Learning Estimator Designs},
     author = {Zhang, Xiangyuan and Mowlavi, Saviz and Benosman, Mouhacine and Ba{\c{s}}ar, Tamer},
-    journal = {arXiv preprint arXiv:XXXX.XXXXX},
+    journal = {arXiv preprint arXiv:2309.04831},
     year = {2023}
 }
 ```
